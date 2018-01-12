@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ab3431ccf12c712048c3b4231099adc",
+    "content-hash": "c3868ecac8df26e5237b794c01e1ead5",
     "packages": [
         {
             "name": "jeremy-f/keysight-sa-controller",
