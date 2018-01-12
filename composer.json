@@ -1,0 +1,29 @@
+{
+    "name": "jeremy-f/band-frequency-db",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "jeremy-f",
+            "email": "jeremy.fornarino@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "url": "https://github.com/Jeremy-F/keysight-sa-controller.git",
+            "type": "git"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Jeremyfornarino\\Band\\" : "src/Jeremyfornarino/Band/"
+        }
+    },
+    "require": {
+        "php": ">=7",
+        "jeremy-f/keysight-sa-controller":"*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
