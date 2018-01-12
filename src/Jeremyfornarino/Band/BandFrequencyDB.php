@@ -13,8 +13,6 @@ use Jeremyfornarino\Ksac\DataAnalyzer\DataAnalyzerCSV;
 use Jeremyfornarino\Ksac\SignalAnalyzer\SignalAnalyzer;
 use Jeremyfornarino\Ksac\SignalAnalyzer\SoftkeyButton\TraceDetectorType;
 
-require_once __DIR__ . "/../../../vendor/autoload.php";
-
 class BandFrequencyDB
 {
     /** @var string */
