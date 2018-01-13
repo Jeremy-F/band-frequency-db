@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: jeremyfornarino
- * Date: 11/01/2018
- * Time: 18:21
- */
 
 namespace Jeremyfornarino\Band;
 
@@ -12,8 +6,6 @@ use Jeremyfornarino\Ksac\DataAnalyzer\Column\ColumnDefaultValue;
 use Jeremyfornarino\Ksac\DataAnalyzer\DataAnalyzerCSV;
 use Jeremyfornarino\Ksac\SignalAnalyzer\SignalAnalyzer;
 use Jeremyfornarino\Ksac\SignalAnalyzer\SoftkeyButton\TraceDetectorType;
-
-require_once __DIR__ . "/../../../vendor/autoload.php";
 
 class BandFrequencyDB
 {
@@ -147,7 +139,7 @@ class BandFrequencyDB
             sleep(1);
 
             $columnDefaultValue->setDefaultValue(time());
-            $dataAnalyzerCSV->saveDataIn($bandDirPath."/".date("Y-m-d_H\hi\ms\s").".csv");
+            $dataAnalyzerCSV->saveDataIn($bandDirPath."/".date("Y-m-d_H\hi\ms\s")."__".uniqid().".csv");
         }
     }
 }
